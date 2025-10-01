@@ -1,5 +1,7 @@
-## Hamro-University
-<img width="2400" alt="Email Banners-Dark" src="https://user-images.githubusercontent.com/55585284/194716424-bb0f7163-72ee-4549-a704-2427ad7d2fd4.png">
+# Hamro-University
+
+<img width="1280" height="720" alt="hack2" src="https://github.com/user-attachments/assets/3668c193-03d0-4af5-9ed0-6517bd071b38" />
+
 
 #### " Experience is the name everyone gives to their mistakes "
 #### - Here are few things/tips you need to know before starting contributing to this repo..
@@ -19,7 +21,7 @@ To get started,
 <hr>
 <hr> 
 
-![Hfest-Badge-2-Color-Manga](https://user-images.githubusercontent.com/55585284/194717041-69f2e80d-505c-449e-8658-bb90e265d000.svg)
+<img width="1280" height="720" alt="hack2" src="https://github.com/user-attachments/assets/3668c193-03d0-4af5-9ed0-6517bd071b38" />
 
 <hr>
 <hr>
@@ -42,13 +44,12 @@ To get started,
 #### -Learn people skills
 #### -It’s empowering to be able to make changes, even small ones.
 <hr>
+
+<img width="1280" height="720" alt="hack2-n" src="https://github.com/user-attachments/assets/2356787e-50f6-4f59-b16f-af2868d4d166" />
+
 <hr>
 
 ## Thank you so much participating wish you best of luck...
-
-<hr>
-<hr>
-<img width="576" alt="Hfest-Logo-2-Color-Manga@2x" src="https://user-images.githubusercontent.com/55585284/194717074-898b11bb-e902-4830-b552-25421cc64f12.png">
 
 <hr>
 <hr>
