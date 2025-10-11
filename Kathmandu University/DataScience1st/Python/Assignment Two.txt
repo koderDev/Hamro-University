@@ -1,0 +1,187 @@
+Python Assignment 2
+
+Submitted By: Aaditya Sapkota ,BDSc Roll no.37
+Submitted To: Narayan Sapkota,DSMA 113
+
+Solutions:
+
+1. Write a program to check if a number is prime or not.
+=
+def prime(num):
+    if num<2:
+        return False
+    for i in range(2,int(num**0.5)+1):
+        if num%i==0:
+            return False
+    return True
+num=int(input("Enter a number: "))
+if prime(num):
+    print(f"{num} is a prime number.")
+else:
+    print(f"{num} is not a prime number.")
+
+Output:
+Enter a number: 5
+5 is a prime number.
+
+
+2. Write a program that takes three numbers as input and finds the largest among
+them.
+=
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
+num3=int(input("Enter the third number: "))
+if(num1>=num2 and num1>=num3):
+    largest=num1
+elif(num2>=num1 and num2>=num3):
+    largest=num2
+else:
+    largest=num3
+print(f"The largest number is: {largest}")
+
+Output:
+Enter the first number: 5
+Enter the second number: 7
+Enter the third number: 6
+The largest number is: 7
+
+
+3. Write a program to print the multiplication table of a given number up to 10.
+=
+num=int(input("Enter a number: "))
+for i in range(1,11):
+    print(f"{num}x{i}={num*i}")
+
+Output:
+Enter a number: 5
+5x1=5
+5x2=10
+5x3=15
+5x4=20
+5x5=25
+5x6=30
+5x7=35
+5x8=40
+5x9=45
+5x10=50
+
+
+4.Write a program that calculates the sum of digits of a number.
+=
+num=int(input("Enter a number: "))
+sum=0
+while num>0:
+    digit=num%10
+    sum+=digit
+    num//=10
+print(f"Sum of digits:{sum}")
+
+Output:
+Enter a number: 456
+Sum of digits:15
+
+
+5.Write a program that counts the number of vowels and consonants in a given string.
+=
+text=input("Enter a string: ")
+v=0
+c=0
+vowels="aeiouAEIOU"
+for char in text:
+    if char in vowels:
+        v+=1
+    else:
+        c+=1
+print(f"The no. of vowels: {v}")
+print(f"The no. of consonants: {c}")
+
+Output:
+Enter a string: Available
+The no. of vowels:5
+The no. of consonants:4
+
+
+6.Write a program to generate the Fibonacci series up to a given number of terms.
+=
+num=int(input("Enter the no. of terms: "))
+a=1
+b=1
+c=0
+for i in range(num):
+    print(c)
+    a=b
+    b=c
+    c=a+b
+
+Output:
+Enter the no. of terms:7
+0
+1
+1
+2
+3
+5
+8
+
+
+7.Write a program to check if a number is a perfect number. A perfect number is one
+where the sum of its divisors (excluding the number itself) is equal to the number.
+=
+num=int(input("Enter a number: "))
+sum=0
+for i in range(1,num):
+    if num%i==0:
+        sum+=i
+if sum==num:
+    print(f"{num} is a perfect number.")
+else:
+    print(f"{num} is not a perfect number.")
+
+Output:
+Enter a number:6
+6 is a perfect number.
+
+
+8.Write a program to reverse a string without using Python’s built-in reverse func-
+tions.
+=
+text=input("Enter the string to reverse: ")
+reverse=""
+for i in range(len(text)-1,-1,-1):
+    reverse+=text[i]
+print(f"The reversed text is :{reverse}")
+
+Output:
+Enter the string to reverse: python
+The reversed text is :nohtyp
+
+
+9.Write a program to check if a given number is a palindrome (it reads the same
+backward as forward).
+=
+num=input("Enter a number: ")
+if num==num[::-1]:
+    print(f"{num} is a palindrome.")
+else:
+    print(f"{num} is not a palindrome.")
+
+Output:
+Enter a number:121
+121 is a palindrome.
+
+
+10.Write a program to find the Greatest Common Divisor (GCD) of two numbers.
+=
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
+if num1<num2 :
+    num1,num2=num2,num1
+while(num2>0):
+    num1,num2=num2,num1%num2
+print(f"gcd is {num1}")
+
+Output:
+Enter the first number:12
+Enter the second number:18
+gcd is 6
+
