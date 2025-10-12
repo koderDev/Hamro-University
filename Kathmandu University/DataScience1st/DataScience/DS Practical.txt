@@ -1,0 +1,20 @@
+-Implementing Machine Learning Models Using Weka Tool.
+-installing Hadoop application and using map reduce programming to solve the word count problem.
+-Lab1 and Lab2 done,, Lab3(Graded,Data Visualization -I),Lab4(Machine Learning-I),
+Lab5(Graded,ML-II)
+-weka tool file extension(file_name.arff)
+
+-load the iris dataset
+-go to the classify tab
+-choose trees:J48(decision tree algorithm)
+-%split=80 for training 
+-and then start 
+-it will be trained on the dataset and also test for the remaining dataset .
+-mean absolute error need to be minimized and ,so on 
+
+-misclassified data(due to not enough training , the data model cannot classify all the remaining dataset with absolute accuracy.
+
+.CROSS VALIDATION (during training the dataset)
+-dividing the given dataset into ten folds and training with 9 dataset and testing with the remaining one.
+
+.CONFUSION MATRIX
