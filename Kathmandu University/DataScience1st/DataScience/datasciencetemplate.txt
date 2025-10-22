@@ -1,0 +1,46 @@
+# 🧠 Data Science Project Template
+
+## 📋 Project Overview
+**Title:** *Your Project Name Here*  
+**Author:** *Your Name*  
+**Date:** *YYYY-MM-DD*  
+**Tools:** Python (NumPy, Pandas, Matplotlib, Scikit-learn), Jupyter Notebook
+
+### 🎯 Objective
+Clearly describe the problem you're solving or the question you're answering.  
+Example:
+> Predict housing prices using regression models based on historical data.
+
+---
+
+## 📊 Dataset Description
+| Feature | Description | Type |
+|----------|--------------|------|
+| `feature_1` | Explanation of the first variable | Numeric |
+| `feature_2` | Explanation of another variable | Categorical |
+| `target` | The value to predict | Numeric |
+
+**Source:** [Kaggle / UCI / Custom Data](https://example.com)
+
+---
+
+## 🧹 Data Preprocessing
+Steps:
+1. Import libraries
+2. Load dataset
+3. Handle missing values
+4. Encode categorical features
+5. Scale numeric variables
+6. Split data into train/test sets
+
+**Example code:**
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+
+df = pd.read_csv("data.csv")
+df = df.dropna()
+X = df.drop("target", axis=1)
+y = df["target"]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
